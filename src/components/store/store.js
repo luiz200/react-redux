@@ -1,0 +1,108 @@
+import { createStore } from "redux";
+
+function reducer() {
+  return [
+    {
+      id: 1,
+      value: "+55 84 91234-4321",
+      monthyPrice: "0.03",
+      setupPrice: "3.40",
+      currency: "U$",
+    },
+    {
+      id: 2,
+      value: "+55 84 91234-4321",
+      monthyPrice: "0.03",
+      setupPrice: "3.40",
+      currency: "U$",
+    },
+    {
+      id: 3,
+      value: "+55 84 91234-4321",
+      monthyPrice: "0.03",
+      setupPrice: "3.40",
+      currency: "U$",
+    },
+    {
+      id: 4,
+      value: "+55 84 91234-4321",
+      monthyPrice: "0.03",
+      setupPrice: "3.40",
+      currency: "U$",
+    },
+    {
+        id: 5,
+        value: "+55 84 91234-4321",
+        monthyPrice: "0.03",
+        setupPrice: "3.40",
+        currency: "U$",
+      },
+      {
+        id: 6,
+        value: "+55 84 91234-4321",
+        monthyPrice: "0.03",
+        setupPrice: "3.40",
+        currency: "U$",
+      },
+      {
+        id: 7,
+        value: "+55 84 91234-4321",
+        monthyPrice: "0.03",
+        setupPrice: "3.40",
+        currency: "U$",
+      },
+      {
+        id: 8,
+        value: "+55 84 91234-4321",
+        monthyPrice: "0.03",
+        setupPrice: "3.40",
+        currency: "U$",
+      },
+      {
+        id: 9,
+        value: "+55 84 91234-4321",
+        monthyPrice: "0.03",
+        setupPrice: "3.40",
+        currency: "U$",
+      },
+      {
+        id: 10,
+        value: "+55 84 91234-4321",
+        monthyPrice: "0.03",
+        setupPrice: "3.40",
+        currency: "U$",
+      },
+      {
+        id: 11,
+        value: "+55 84 91234-4321",
+        monthyPrice: "0.03",
+        setupPrice: "3.40",
+        currency: "U$",
+      },
+      {
+        id: 12,
+        value: "+55 84 91234-4321",
+        monthyPrice: "0.03",
+        setupPrice: "3.40",
+        currency: "U$",
+      },
+      {
+        id: 13,
+        value: "+55 84 91234-4321",
+        monthyPrice: "0.03",
+        setupPrice: "3.40",
+        currency: "U$",
+      },
+      {
+        id: 14,
+        value: "+55 84 91234-4321",
+        monthyPrice: "0.03",
+        setupPrice: "3.40",
+        currency: "U$",
+      },
+  ];
+}
+
+const store = createStore(reducer);
+
+export default store;

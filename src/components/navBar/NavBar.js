@@ -14,7 +14,7 @@ class NavBar extends Component {
       <div className="NavBar">
         <Navbar bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand width={200} height={200}>
+            <Navbar.Brand>
               CRUD-
               <MdContactPhone />
             </Navbar.Brand>
@@ -30,7 +30,7 @@ class NavBar extends Component {
                   <Dropdown.Toggle
                     align="end"
                     className="justify-content-end"
-                    variant="success"
+                    variant="warning"
                     id="dropdown-basic"
                   >
                     <IoPersonCircleOutline />
