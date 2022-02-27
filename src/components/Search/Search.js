@@ -1,28 +1,25 @@
-import React, { Component } from 'react';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import { connect } from "react-redux";
+import Form from "react-bootstrap/Form";
+import FormControl from "react-bootstrap/FormControl";
+import Container from "react-bootstrap/Container";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-class Search extends Component{
-  render(){
-    return (
+function Search() { 
+  return (
     <Container>
-    <br></br>
+      <br></br>
       <Form className="d-flex">
         <FormControl
           type="search"
-          placeholder="Search"
+          placeholder="Search..."
           className="me-2"
           aria-label="Search"
         />
-        <Button variant="dark">Search</Button>
       </Form>
-    <br></br>
+      <br></br>
     </Container>
-    );
-  }
+  );
 }
 
-export default Search;
+export default connect()(Search);
